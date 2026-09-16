@@ -30,9 +30,9 @@ export default function Coordinators() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-6 sm:mt-2">
              {/* Coordinator 1 */}
              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:justify-center">
-                <div className="shrink-0 relative w-[90px] h-[100px] flex items-center justify-center">
-                  <svg className="absolute inset-0 w-full h-full text-[#6FEF44]/30" viewBox="0 0 64 74" fill="none">
-                    <polygon points="32,1 63,19 63,55 32,73 1,55 1,19" stroke="currentColor" strokeWidth="1" />
+                <div className="shrink-0 relative w-[90px] h-[90px] flex items-center justify-center">
+                  <svg className="absolute inset-0 w-full h-full text-[#6FEF44]/30" viewBox="0 0 64 64" fill="none">
+                    <circle cx="32" cy="32" r="31" stroke="currentColor" strokeWidth="1" />
                   </svg>
                   <svg className="w-11 h-11 text-[#6FEF44] relative z-10" viewBox="0 0 64 64" fill="none">
                     <circle cx="32" cy="22" r="8" stroke="currentColor" strokeWidth="3.5" />
@@ -48,13 +48,12 @@ export default function Coordinators() {
 
              {/* Coordinator 2 */}
              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:justify-center">
-                <div className="shrink-0 relative w-[90px] h-[100px] flex items-center justify-center">
-                  <svg className="absolute inset-0 w-full h-full text-[#6FEF44]/50" viewBox="0 0 64 74" fill="none">
-                    <polygon points="32,1 63,19 63,55 32,73 1,55 1,19" stroke="currentColor" strokeWidth="2" />
+                <div className="shrink-0 relative w-[90px] h-[90px] flex items-center justify-center">
+                  <svg className="absolute inset-0 w-full h-full text-[#6FEF44]/50" viewBox="0 0 64 64" fill="none">
+                    <circle cx="32" cy="32" r="31" stroke="currentColor" strokeWidth="2" />
                   </svg>
                   <div 
-                    className="absolute inset-[3px] z-10 overflow-hidden bg-[#030904]" 
-                    style={{ clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)" }}
+                    className="absolute inset-[3px] z-10 overflow-hidden bg-[#030904] rounded-full"
                   >
                     <Image 
                       src="/assets/rohan.jpeg" 
