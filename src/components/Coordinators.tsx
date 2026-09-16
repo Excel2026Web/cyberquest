@@ -38,10 +38,9 @@ export default function Coordinators() {
                     <line x1="14" y1="52" x2="50" y2="52" stroke="currentColor" strokeWidth="3.5" strokeLinecap="round" />
                   </svg>
                 </div>
-                <div className="flex flex-col font-mono text-sm tracking-widest text-center sm:text-left mt-2 sm:mt-4">
-                  <span className="text-white mb-1">VASANTH R</span>
-                  <span className="text-white mb-1">CS5A</span>
-                  <span className="text-[#white] opacity-80">783438490</span>
+                <div className="flex flex-col font-mono tracking-widest text-center sm:text-left mt-2 sm:mt-5">
+                  <span className="text-white text-base mb-1">DIJITH DINESH</span>
+                  <span className="text-[#6FEF44] opacity-80 text-sm mt-1">+91 82813 05289</span>
                 </div>
              </div>
 
@@ -57,10 +56,9 @@ export default function Coordinators() {
                     <line x1="14" y1="52" x2="50" y2="52" stroke="currentColor" strokeWidth="3.5" strokeLinecap="round" />
                   </svg>
                 </div>
-                <div className="flex flex-col font-mono text-sm tracking-widest text-center sm:text-left mt-2 sm:mt-4">
-                  <span className="text-white mb-1">VASANTH R</span>
-                  <span className="text-white mb-1">CS5A</span>
-                  <span className="text-[#white] opacity-80">783438490</span>
+                <div className="flex flex-col font-mono tracking-widest text-center sm:text-left mt-2 sm:mt-5">
+                  <span className="text-white text-base mb-1">ROHAN JOSEPH</span>
+                  <span className="text-[#6FEF44] opacity-80 text-sm mt-1">+91 6282 003 220</span>
                 </div>
              </div>
           </div>
