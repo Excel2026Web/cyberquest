@@ -55,10 +55,10 @@ export default function EventInfo() {
                   </svg>
                   
                   <div className="flex items-center gap-2 sm:gap-3">
-                    <div className="text-4xl sm:text-5xl font-bebas-neue text-[#6FEF44] leading-none mt-1">28</div>
+                    <div className="text-4xl sm:text-5xl font-bebas-neue text-[#6FEF44] leading-none mt-1">26</div>
                     <div className="flex flex-col text-xs sm:text-sm font-josefin-sans leading-tight text-white uppercase tracking-wider">
                       <span>September 2025</span>
-                      <span>10:00 AM — 6:00 PM</span>
+                      <span>10:00 AM — 5:00 PM</span>
                     </div>
                   </div>
                 </div>

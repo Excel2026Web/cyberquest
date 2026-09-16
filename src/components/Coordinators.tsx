@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Coordinators() {
   return (
     <section id="coordinators" className="relative z-10 flex flex-col items-center w-full px-4 py-8 pb-32">
@@ -47,14 +49,21 @@ export default function Coordinators() {
              {/* Coordinator 2 */}
              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:justify-center">
                 <div className="shrink-0 relative w-[90px] h-[100px] flex items-center justify-center">
-                  <svg className="absolute inset-0 w-full h-full text-[#6FEF44]/30" viewBox="0 0 64 74" fill="none">
-                    <polygon points="32,1 63,19 63,55 32,73 1,55 1,19" stroke="currentColor" strokeWidth="1" />
+                  <svg className="absolute inset-0 w-full h-full text-[#6FEF44]/50" viewBox="0 0 64 74" fill="none">
+                    <polygon points="32,1 63,19 63,55 32,73 1,55 1,19" stroke="currentColor" strokeWidth="2" />
                   </svg>
-                  <svg className="w-11 h-11 text-[#6FEF44] relative z-10" viewBox="0 0 64 64" fill="none">
-                    <circle cx="32" cy="22" r="8" stroke="currentColor" strokeWidth="3.5" />
-                    <path d="M 14 52 C 14 36, 50 36, 50 52" stroke="currentColor" strokeWidth="3.5" strokeLinecap="round" />
-                    <line x1="14" y1="52" x2="50" y2="52" stroke="currentColor" strokeWidth="3.5" strokeLinecap="round" />
-                  </svg>
+                  <div 
+                    className="absolute inset-[3px] z-10 overflow-hidden bg-[#030904]" 
+                    style={{ clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)" }}
+                  >
+                    <Image 
+                      src="/assets/rohan.jpeg" 
+                      alt="Rohan Joseph" 
+                      fill 
+                      className="object-cover grayscale hover:grayscale-0 transition-all duration-500" 
+                      unoptimized
+                    />
+                  </div>
                 </div>
                 <div className="flex flex-col font-mono tracking-widest text-center sm:text-left mt-2 sm:mt-5">
                   <span className="text-white text-base mb-1">ROHAN JOSEPH</span>
