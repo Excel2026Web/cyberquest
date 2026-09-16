@@ -55,20 +55,10 @@ export default function EventInfo() {
                   </svg>
                   
                   <div className="flex items-center gap-2 sm:gap-3">
-                    <div className="text-4xl sm:text-5xl font-bebas-neue text-[#6FEF44] leading-none mt-1">30</div>
-                    <div className="flex flex-col text-xs sm:text-sm font-josefin-sans leading-tight text-white">
-                      <span>September 2026</span>
-                      <span>6:00 PM</span>
-                    </div>
-                  </div>
-                  
-                  <div className="text-lg sm:text-xl font-bebas-neue text-white px-1 sm:px-2 mt-1">TO</div>
-                  
-                  <div className="flex items-center gap-2 sm:gap-3">
-                    <div className="text-4xl sm:text-5xl font-bebas-neue text-[#6FEF44] leading-none mt-1">3</div>
-                    <div className="flex flex-col text-xs sm:text-sm font-josefin-sans leading-tight text-white">
-                      <span>October 2026</span>
-                      <span>6:00 PM</span>
+                    <div className="text-4xl sm:text-5xl font-bebas-neue text-[#6FEF44] leading-none mt-1">28</div>
+                    <div className="flex flex-col text-xs sm:text-sm font-josefin-sans leading-tight text-white uppercase tracking-wider">
+                      <span>September 2025</span>
+                      <span>10:00 AM — 6:00 PM</span>
                     </div>
                   </div>
                 </div>
@@ -79,8 +69,8 @@ export default function EventInfo() {
                 <div className="text-[#6FEF44] uppercase text-sm tracking-[0.2em] font-mono mb-3">
                   Format
                 </div>
-                <div className="text-white font-josefin-sans text-lg">
-                  Capture The Flag (CTF)
+                <div className="text-white font-josefin-sans text-lg uppercase tracking-wider">
+                  Full-Day Workshop
                 </div>
               </div>
 
@@ -89,36 +79,26 @@ export default function EventInfo() {
             {/* Divider line */}
             <div className="w-full h-[1px] bg-[#1b3d18] my-8"></div>
 
-            {/* Bottom Row: Eligibility, Prize Pool, Registration */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+            {/* Bottom Row: Location, Registration */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               
-              {/* Eligibility */}
+              {/* Location */}
               <div>
                 <div className="text-[#6FEF44] uppercase text-sm tracking-[0.2em] font-mono mb-3">
-                  Eligibility
+                  Location
                 </div>
-                <div className="text-white font-josefin-sans text-base leading-relaxed">
-                  Students and professionals<br/>across India
-                </div>
-              </div>
-
-              {/* Prize Pool */}
-              <div className="sm:border-l sm:border-[#1b3d18] sm:pl-8">
-                <div className="text-[#6FEF44] uppercase text-sm tracking-[0.2em] font-mono mb-2">
-                  Prize Pool
-                </div>
-                <div className="text-white font-bebas-neue text-4xl sm:text-5xl flex items-center gap-2 mt-1">
-                  <span className="text-[#6FEF44] text-3xl sm:text-4xl mb-1">₹</span> 10,000
+                <div className="text-white font-josefin-sans text-base leading-relaxed uppercase tracking-wider">
+                  ASA HALL<br/>Nippon Centre
                 </div>
               </div>
 
               {/* Registration */}
               <div className="sm:border-l sm:border-[#1b3d18] sm:pl-8">
-                <div className="text-[#6FEF44] uppercase text-sm tracking-[0.2em] font-mono mb-3">
+                <div className="text-[#6FEF44] uppercase text-sm tracking-[0.2em] font-mono mb-2">
                   Registration
                 </div>
-                <div className="text-white font-josefin-sans text-lg">
-                  Free
+                <div className="text-white font-bebas-neue text-4xl sm:text-5xl flex items-center gap-2 mt-1">
+                  <span className="text-[#6FEF44] text-3xl sm:text-4xl mb-1">₹</span> 599
                 </div>
               </div>
 
