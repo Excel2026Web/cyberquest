@@ -22,12 +22,14 @@ export default function About() {
           {/* Right Column: Text Content */}
           <div className="flex-1 font-josefin-sans font-medium text-sm sm:text-base leading-relaxed text-white">
             <p className="mb-4">
-              A 72-hour digital battlefield where Kerala's finest mind clash in cybersecurity warfare.<br/>
-              Part of Excel 2026 at Model Engineering College, featuring real-world exploits and<br/>
-              advanced penetration testing scenarios
+              <strong className="text-[#6FEF44]">CyberQuest</strong> is a full-day workshop by Excel MEC designed to introduce participants to the practical side of cybersecurity. It explores Vulnerability Assessment &amp; Penetration Testing (VAPT) alongside the fundamentals of Capture The Flag (CTF) challenges.
             </p>
-            <p className="text-[#6FEF44]">
-              are you ready to accept the quest?
+            <p className="mb-6">
+              The workshop guides you through the core concepts of VAPT, followed by a hands-on introduction to CTFs and the strategies needed to approach and solve them.
+            </p>
+            <p className="text-[#6FEF44] font-semibold text-sm sm:text-base">
+              The focus is simple:<br/>
+              <span className="text-white">Understand the vulnerability. Think through the problem. Learn how to solve it.</span>
             </p>
           </div>
 
