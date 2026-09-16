@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Experts() {
   return (
     <section id="experts" className="relative z-10 flex flex-col items-center w-full px-4 py-16 pb-24">
@@ -31,6 +33,15 @@ export default function Experts() {
             className="relative bg-[#030904]/90 backdrop-blur-md w-full h-full p-8 flex flex-col"
             style={{ clipPath: "polygon(21px 1px, calc(100% - 1px) 1px, calc(100% - 1px) calc(100% - 21px), calc(100% - 21px) calc(100% - 1px), 1px calc(100% - 1px), 1px 21px)" }}
           >
+            <div className="relative w-24 h-24 sm:w-32 sm:h-32 mb-6 rounded-sm border-l-2 border-b-2 border-[#6FEF44]/60 overflow-hidden shrink-0 shadow-[0_0_15px_rgba(111,239,68,0.15)] bg-black">
+              <Image 
+                src="/assets/krishnadas.jpeg" 
+                alt="Krishnadev P" 
+                fill 
+                className="object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                unoptimized
+              />
+            </div>
             <h3 className="text-[#6FEF44] font-bebas-neue text-4xl sm:text-5xl tracking-wider">KRISHNADEV P</h3>
             <div className="text-white font-mono text-sm tracking-widest uppercase mb-6 opacity-90 border-l-2 border-[#6FEF44] pl-3">
               Independent Security Researcher
@@ -67,6 +78,15 @@ export default function Experts() {
             className="relative bg-[#030904]/90 backdrop-blur-md w-full h-full p-8 flex flex-col"
             style={{ clipPath: "polygon(1px 1px, calc(100% - 21px) 1px, calc(100% - 1px) 21px, calc(100% - 1px) calc(100% - 1px), 21px calc(100% - 1px), 1px calc(100% - 21px))" }}
           >
+            <div className="relative w-24 h-24 sm:w-32 sm:h-32 mb-6 rounded-sm border-r-2 border-b-2 border-[#6FEF44]/60 overflow-hidden shrink-0 shadow-[0_0_15px_rgba(111,239,68,0.15)] bg-black">
+              <Image 
+                src="/assets/jerin.jpeg" 
+                alt="Jerin Manoj" 
+                fill 
+                className="object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                unoptimized
+              />
+            </div>
             <h3 className="text-[#6FEF44] font-bebas-neue text-4xl sm:text-5xl tracking-wider">JERIN MANOJ</h3>
             <div className="text-white font-mono text-sm tracking-widest uppercase mb-6 opacity-90 border-l-2 border-[#6FEF44] pl-3">
               Cybersecurity Researcher
