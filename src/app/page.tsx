@@ -2,6 +2,8 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import EventInfo from "@/components/EventInfo";
 import Navbar from "@/components/Navbar";
+import Experts from "@/components/Experts";
+import Coordinators from "@/components/Coordinators";
 
 export default function Home() {
   return (
@@ -35,6 +37,8 @@ export default function Home() {
       <Hero />
       <About />
       <EventInfo />
+      <Experts />
+      <Coordinators />
     </div>
   );
 }

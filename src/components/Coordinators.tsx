@@ -1,0 +1,83 @@
+import Image from "next/image";
+
+export default function Coordinators() {
+  return (
+    <section id="coordinators" className="relative z-10 flex flex-col items-center w-full px-4 py-8 pb-32">
+      <h3 className="text-[#6FEF44] font-mono uppercase tracking-[0.2em] text-xl sm:text-2xl mb-8">Event Coordinators</h3>
+      
+      <div className="relative w-full max-w-4xl p-[1px]">
+        {/* Outer glowing border shape */}
+        <div 
+          className="absolute inset-0 bg-[#1b3d18]"
+          style={{
+            clipPath: "polygon(20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 40px 100%, 20px calc(100% - 20px), 0 calc(100% - 20px), 0 20px)"
+          }}
+        >
+          {/* Glowing accent bars */}
+          <div className="absolute top-0 left-[10%] w-[15%] h-[2px] bg-[#6FEF44] shadow-[0_0_10px_#6FEF44]"></div>
+          <div className="absolute top-0 right-[15%] w-[25%] h-[2px] bg-[#6FEF44] shadow-[0_0_10px_#6FEF44]"></div>
+          <div className="absolute bottom-0 left-[35%] w-[30%] h-[2px] bg-[#6FEF44] shadow-[0_0_10px_#6FEF44]"></div>
+        </div>
+        
+        {/* Inner dark container */}
+        <div 
+          className="relative bg-[#030904]/90 backdrop-blur-md w-full h-full p-8 sm:p-12"
+          style={{
+            clipPath: "polygon(21px 1px, calc(100% - 1px) 1px, calc(100% - 1px) calc(100% - 21px), calc(100% - 21px) calc(100% - 1px), 39px calc(100% - 1px), 19px calc(100% - 21px), 1px calc(100% - 21px), 1px 21px)"
+          }}
+        >
+          {/* Coordinators Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-6 sm:mt-2">
+             {/* Coordinator 1 */}
+             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:justify-center">
+                <div className="shrink-0 relative w-[90px] h-[90px] flex items-center justify-center">
+                  <svg className="absolute inset-0 w-full h-full text-[#6FEF44]/50" viewBox="0 0 64 64" fill="none">
+                    <circle cx="32" cy="32" r="31" stroke="currentColor" strokeWidth="2" />
+                  </svg>
+                  <div 
+                    className="absolute inset-[3px] z-10 overflow-hidden bg-[#030904] rounded-full"
+                  >
+                    <Image 
+                      src="/assets/dijith.jpeg" 
+                      alt="Dijith Dinesh" 
+                      fill 
+                      className="object-cover scale-[1.35] translate-y-3 grayscale hover:grayscale-0 transition-all duration-500" 
+                      unoptimized
+                    />
+                  </div>
+                </div>
+                <div className="flex flex-col font-mono tracking-widest text-center sm:text-left mt-2 sm:mt-5">
+                  <span className="text-white text-base mb-1">DIJITH DINESH</span>
+                  <span className="text-[#6FEF44] opacity-80 text-sm mt-1">+91 82813 05289</span>
+                </div>
+             </div>
+
+             {/* Coordinator 2 */}
+             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:justify-center">
+                <div className="shrink-0 relative w-[90px] h-[90px] flex items-center justify-center">
+                  <svg className="absolute inset-0 w-full h-full text-[#6FEF44]/50" viewBox="0 0 64 64" fill="none">
+                    <circle cx="32" cy="32" r="31" stroke="currentColor" strokeWidth="2" />
+                  </svg>
+                  <div 
+                    className="absolute inset-[3px] z-10 overflow-hidden bg-[#030904] rounded-full"
+                  >
+                    <Image 
+                      src="/assets/rohan.jpeg" 
+                      alt="Rohan Joseph" 
+                      fill 
+                      className="object-cover grayscale hover:grayscale-0 transition-all duration-500" 
+                      unoptimized
+                    />
+                  </div>
+                </div>
+                <div className="flex flex-col font-mono tracking-widest text-center sm:text-left mt-2 sm:mt-5">
+                  <span className="text-white text-base mb-1">ROHAN JOSEPH</span>
+                  <span className="text-[#6FEF44] opacity-80 text-sm mt-1">+91 6282 003 220</span>
+                </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

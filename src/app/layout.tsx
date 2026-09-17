@@ -29,8 +29,8 @@ const josefinSans = Josefin_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "CyberQuest | CTF Challenge | Excel 2026",
-  description: "Excel 2026’s flagship tech event — a high-octane CTF where skill meets strategy. Team up, hack through challenges, and claim your glory",
+  title: "CyberQuest | Excel 2026",
+  description: "Excel 2026’s flagship tech event — a high-octane CTF workshop where skill meets strategy. Team up, hack through challenges, and claim your glory",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
