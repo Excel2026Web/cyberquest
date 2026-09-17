@@ -31,14 +31,20 @@ export default function Coordinators() {
              {/* Coordinator 1 */}
              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:justify-center">
                 <div className="shrink-0 relative w-[90px] h-[90px] flex items-center justify-center">
-                  <svg className="absolute inset-0 w-full h-full text-[#6FEF44]/30" viewBox="0 0 64 64" fill="none">
-                    <circle cx="32" cy="32" r="31" stroke="currentColor" strokeWidth="1" />
+                  <svg className="absolute inset-0 w-full h-full text-[#6FEF44]/50" viewBox="0 0 64 64" fill="none">
+                    <circle cx="32" cy="32" r="31" stroke="currentColor" strokeWidth="2" />
                   </svg>
-                  <svg className="w-11 h-11 text-[#6FEF44] relative z-10" viewBox="0 0 64 64" fill="none">
-                    <circle cx="32" cy="22" r="8" stroke="currentColor" strokeWidth="3.5" />
-                    <path d="M 14 52 C 14 36, 50 36, 50 52" stroke="currentColor" strokeWidth="3.5" strokeLinecap="round" />
-                    <line x1="14" y1="52" x2="50" y2="52" stroke="currentColor" strokeWidth="3.5" strokeLinecap="round" />
-                  </svg>
+                  <div 
+                    className="absolute inset-[3px] z-10 overflow-hidden bg-[#030904] rounded-full"
+                  >
+                    <Image 
+                      src="/assets/dijith.jpeg" 
+                      alt="Dijith Dinesh" 
+                      fill 
+                      className="object-cover scale-[1.35] translate-y-3 grayscale hover:grayscale-0 transition-all duration-500" 
+                      unoptimized
+                    />
+                  </div>
                 </div>
                 <div className="flex flex-col font-mono tracking-widest text-center sm:text-left mt-2 sm:mt-5">
                   <span className="text-white text-base mb-1">DIJITH DINESH</span>
