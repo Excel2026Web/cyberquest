@@ -50,8 +50,11 @@ export default function Hero() {
                 style={{ background: "#39ff14" }}
               ></div>
 
-              <button
-                className="relative font-mono font-bold tracking-[0.2em] uppercase text-xs px-8 py-2.5 border-2 bg-transparent hover:bg-[#39ff14]/10 transition-colors cursor-pointer"
+              <a
+                href="https://forms.excelmec.org/cyberquest"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block relative font-mono font-bold tracking-[0.2em] uppercase text-xs px-8 py-2.5 border-2 bg-transparent hover:bg-[#39ff14]/10 transition-colors cursor-pointer"
                 style={{
                   color: "#39ff14",
                   borderColor: "#39ff14",
@@ -60,7 +63,7 @@ export default function Hero() {
                 }}
               >
                 Register
-              </button>
+              </a>
 
               <span className="absolute -top-[3px] -left-[3px] w-2.5 h-2.5 border-t-2 border-l-2 border-[#39ff14]"></span>
               <span className="absolute -top-[3px] -right-[3px] w-2.5 h-2.5 border-t-2 border-r-2 border-[#39ff14]"></span>
@@ -115,8 +118,11 @@ export default function Hero() {
                 style={{ background: "#39ff14" }}
               ></div>
 
-              <button
-                className="relative font-mono font-bold tracking-[0.25em] uppercase text-sm px-10 py-3 border-2 bg-transparent hover:bg-[#39ff14]/10 transition-colors cursor-pointer"
+              <a
+                href="https://forms.excelmec.org/cyberquest"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block relative font-mono font-bold tracking-[0.25em] uppercase text-sm px-10 py-3 border-2 bg-transparent hover:bg-[#39ff14]/10 transition-colors cursor-pointer"
                 style={{
                   color: "#39ff14",
                   borderColor: "#39ff14",
@@ -125,7 +131,7 @@ export default function Hero() {
                 }}
               >
                 Register
-              </button>
+              </a>
 
               {/* Corner decorations */}
               <span className="absolute -top-[3px] -left-[3px] w-3 h-3 border-t-2 border-l-2 border-[#39ff14]"></span>
