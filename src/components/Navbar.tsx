@@ -38,6 +38,7 @@ export default function Navbar() {
 
   return (
     <nav
+      aria-label="Main navigation"
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
           ? "bg-black/70 backdrop-blur-md border-b border-[#1b3d18] shadow-[0_2px_20px_rgba(57,255,20,0.08)]"
@@ -49,11 +50,12 @@ export default function Navbar() {
         {/* Logo Image (Left side) */}
         <button
           onClick={() => scrollTo("hero")}
+          aria-label="Go to top"
           className="relative cursor-pointer w-20 h-20 sm:w-24 sm:h-24 flex items-center justify-center transition-transform hover:scale-105"
         >
           <Image 
             src="/logo.png" 
-            alt="Logo" 
+            alt="Excel MEC CyberQuest logo" 
             fill
             className="object-contain"
             unoptimized
@@ -62,10 +64,12 @@ export default function Navbar() {
 
         {/* Navigation dots (Right side) */}
         <div className="flex items-center gap-3">
-          {navLinks.map(({ id }) => (
+        {navLinks.map(({ id, label }) => (
             <button
               key={id}
               onClick={() => scrollTo(id)}
+              aria-label={`Navigate to ${label}`}
+              aria-current={activeSection === id ? "page" : undefined}
               className={`w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full transition-all duration-300 cursor-pointer ${
                 activeSection === id
                   ? "bg-[#6FEF44] shadow-[0_0_8px_#6FEF44] scale-125"

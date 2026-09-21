@@ -2,7 +2,7 @@ export default function EventInfo() {
   return (
     <>
       {/* ── Event Details Section ── */}
-      <section id="event-info" className="relative z-10 flex flex-col items-center w-full px-4 py-8 pb-24">
+      <section id="event-info" aria-label="Event details" className="relative z-10 flex flex-col items-center w-full px-4 py-8 pb-24">
         <div className="relative w-full max-w-5xl p-[1px]">
           {/* Outer glowing border shape */}
           <div 
