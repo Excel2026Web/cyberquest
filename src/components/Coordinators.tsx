@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Coordinators() {
   return (
     <section id="coordinators" className="relative z-10 flex flex-col items-center w-full px-4 py-8 pb-32">
-      <h3 className="text-[#6FEF44] font-mono uppercase tracking-[0.2em] text-xl sm:text-2xl mb-8">Event Coordinators</h3>
+      <h2 className="text-[#6FEF44] font-mono uppercase tracking-[0.2em] text-xl sm:text-2xl mb-8">Event Coordinators</h2>
       
       <div className="relative w-full max-w-4xl p-[1px]">
         {/* Outer glowing border shape */}

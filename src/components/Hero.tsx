@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section id="hero" className="relative z-10 flex flex-col items-center w-full min-h-screen min-h-[100dvh]">
+    <section id="hero" aria-label="CyberQuest hero" className="relative z-10 flex flex-col items-center w-full min-h-screen min-h-[100dvh]">
       {/* Container that holds everything stacked and centered */}
       <div className="relative flex flex-col items-center justify-center w-full flex-1 pt-4 sm:pt-10">
 
@@ -36,10 +36,11 @@ export default function Hero() {
           <div className="relative z-10 flex flex-col items-center w-full -mt-4" style={{ maxWidth: "85vw" }}>
             <Image
               src="/hero.png"
-              alt="Cyberquest Hero"
+              alt="A hacker silhouette representing the CyberQuest cybersecurity workshop"
               width={650}
               height={650}
               className="w-full h-auto"
+              priority
               unoptimized
             />
 
@@ -54,6 +55,7 @@ export default function Hero() {
                 href="https://forms.excelmec.org/cyberquest"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Register for CyberQuest 2025"
                 className="inline-block relative font-mono font-bold tracking-[0.2em] uppercase text-xs px-8 py-2.5 border-2 bg-transparent hover:bg-[#39ff14]/10 transition-colors cursor-pointer"
                 style={{
                   color: "#39ff14",
@@ -103,10 +105,11 @@ export default function Hero() {
           <div className="absolute top-[8%] left-1/2 -translate-x-1/2 z-10 flex flex-col items-center" style={{ width: "min(85vw, 650px)" }}>
             <Image
               src="/hero.png"
-              alt="Cyberquest Hero"
+              alt="A hacker silhouette representing the CyberQuest cybersecurity workshop"
               width={650}
               height={650}
               className="w-full h-auto"
+              priority
               unoptimized
             />
 
@@ -122,6 +125,7 @@ export default function Hero() {
                 href="https://forms.excelmec.org/cyberquest"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Register for CyberQuest 2025"
                 className="inline-block relative font-mono font-bold tracking-[0.25em] uppercase text-sm px-10 py-3 border-2 bg-transparent hover:bg-[#39ff14]/10 transition-colors cursor-pointer"
                 style={{
                   color: "#39ff14",

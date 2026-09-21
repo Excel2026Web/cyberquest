@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Experts() {
   return (
-    <section id="experts" className="relative z-10 flex flex-col items-center w-full px-4 py-16 pb-24">
+    <section id="experts" aria-label="Expert speakers" className="relative z-10 flex flex-col items-center w-full px-4 py-16 pb-24">
       {/* Title Section */}
       <div className="flex flex-col items-center text-center mb-16">
         <h2 className="font-bebas-neue flex flex-col uppercase items-center">
